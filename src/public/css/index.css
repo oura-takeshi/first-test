@@ -1,0 +1,127 @@
+.header {
+    background: #fff;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 15px 15px;
+    max-width: 1230px;
+    color: #8B7C68;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.contact-form__content {
+    margin: 0 auto;
+    padding: 25px 15px;
+    max-width: 1230px;
+    color: #8B7C68;
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__label--required {
+    color: #ff0000;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    border: none;
+    width: 600px;
+    border-radius: 3px;
+    background: #F5F5F5;
+    }
+
+.form__input--text {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.form__input--text .form__input--first-name,
+.form__input--text .form__input--last-name {
+    width: 280px;
+}
+
+.form__input--text .form__input--first-tel,
+.form__input--text .form__input--second-tel,
+.form__input--text .form__input--third-tel {
+    width: 180px;
+    text-align: center;
+}
+
+.form__input--radio {
+    margin-right: auto;
+    width: 600px;
+    text-align: left;
+}
+
+.form__input--male,
+.form__input--female,
+.form__input--non-binary {
+    accent-color: #8B7C68;
+}
+
+.form__input--select {
+    width: 600px;
+    position: relative;
+}
+
+.form__input--select select {
+    display: block;
+    padding: 10px;
+    border: none;
+    width: 300px;
+    border-radius: 3px;
+    background: #F5F5F5;
+    appearance: none;
+}
+
+.form__input--select::after {
+    position: absolute;
+    content: "";
+    top: 40%;
+    left: 50%;
+    margin-left: -30px;
+    border: 10px solid transparent;
+    border-top: 10px solid #8B7C68;
+}
+
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #82766A;
+    color: #fff;
+    cursor: pointer;
+}
